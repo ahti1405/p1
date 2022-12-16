@@ -36,7 +36,7 @@ async def main():
             'voda': voda,
             'zola': zola
         }
-        print(output)
+        return output
 
 
 asyncio.run(main())
